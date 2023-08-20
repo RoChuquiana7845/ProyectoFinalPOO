@@ -1,0 +1,52 @@
+{
+  "name": "proyecto-final-poo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "css": "postcss ./public/css/tailwind.css -o ./public/css/app.css --watch"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^5.0.8",
+    "@mui/icons-material": "^5.14.3",
+    "@mui/joy": "^5.0.0-beta.2",
+    "@mui/material": "^5.14.5",
+    "@mui/styled-engine-sc": "^5.12.0",
+    "@react-google-maps/api": "^2.19.2",
+    "@sjaakp/leaflet-search": "^1.0.2",
+    "@tinymce/tinymce-react": "^4.3.0",
+    "google-map-react": "^2.2.1",
+    "leaflet": "^1.9.4",
+    "leaflet-geosearch": "^3.8.0",
+    "mapbox-gl": "^2.15.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-leaflet": "^4.2.1",
+    "react-map-gl": "^7.1.4",
+    "react-router-dom": "^6.15.0",
+    "react-widgets": "^5.8.4",
+    "styled-components": "^5.3.11",
+    "tinymce": "^6.6.2",
+    "use-places-autocomplete": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "autoprefixer": "^10.4.15",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "postcss": "^8.4.28",
+    "postcss-cli": "^10.1.0",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.4.5"
+  }
+}
